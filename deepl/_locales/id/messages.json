@@ -1,0 +1,1197 @@
+{
+  "appDesc": {
+    "message": "Menerjemahkan ketika Anda membaca dan menulis dengan DeepL Translate, penerjemah terakurat sedunia.",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "appName": {
+    "message": "DeepL Translate: Penerjemah saat membaca & menulis",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "config_tab_click_icon": {
+    "message": "Klik <strong>ikon DeepL</strong>"
+  },
+  "config_tab_customize_link": {
+    "message": "Atur dan sesuaikan pintasan"
+  },
+  "context_menus_translate_section": {
+    "message": "Terjemahkan pilihan ini",
+    "description": "The right click context menu action to trigger an inline translation"
+  },
+  "default_popup_button_done": {
+    "message": "Selesai",
+    "description": "Button to close the default popup of the extension (settings)"
+  },
+  "error_message_generic_error": {
+    "message": "Maaf, kami tidak dapat menerjemahkan teks Anda. Harap coba lagi nanti.",
+    "description": "Genric error to tell the user that there is a technical problem"
+  },
+  "error_message_internet_connection": {
+    "message": "Maaf, ada masalah koneksi internet. Harap coba lagi."
+  },
+  "error_message_please_login": {
+    "message": "Harap masuk lagi untuk menerjemahkan teks ini"
+  },
+  "error_message_quota_has_been_reached": {
+    "message": "Anda telah mencapai batas penggunaan akun Anda.",
+    "description": "There is an API error when the user reaches his quota and therefore is not longer able to use the pro endpoint and if does not get logged out he can not longer use the extension. We need to show him a message so the user knows why he logged out"
+  },
+  "error_message_session_expired": {
+    "message": "Maaf, sesi Anda sudah berakhir. Harap masuk lagi."
+  },
+  "error_message_technical_issue": {
+    "message": "Maaf, kami tidak dapat menerjemahkan teks Anda karena masalah teknis yang sudah diketahui. Kami sedang berupaya untuk memperbaiki masalah ini segera."
+  },
+  "error_message_too_many_requests": {
+    "message": "Maaf, kami tidak dapat menerjemahkan teks Anda. Tampaknya jaringan Anda mengirim terlalu banyak permintaan ke server kami.",
+    "description": "Info for free users that too many requests are triggered"
+  },
+  "extension_settings_keyboard_shortcut_change_language": {
+    "message": "Change language"
+  },
+  "extension_settings_keyboard_shortcut_perform_translation": {
+    "message": "Menerjemahkan teks",
+    "description": "This text will be displayed in the settings screen of the browser (we can only set the label here)."
+  },
+  "full_page_translation_auto_detect_lang": {
+    "message": "Mendeteksi bahasa..."
+  },
+  "full_page_translation_auto_translate": {
+    "message": "Secara otomatis menerjemahkan halaman ke bahasa ini"
+  },
+  "full_page_translation_auto_translate_message": {
+    "message": "Diterjemahkan secara otomatis dari bahasa:"
+  },
+  "full_page_translation_error_exceeds_char_limit": {
+    "message": "Maaf, kami tidak dapat menerjemahkan halaman ini karena melebihi batas karakter.",
+    "description": "If a single element of the website has more than 5,500 characters, we can't translate it. And in that case there is nothing the user can do. "
+  },
+  "full_page_translation_error_service_not_available": {
+    "message": "Maaf, halaman ini tidak dapat diterjemahkan secara lengkap saat ini. Kami sedang berupaya memperbaiki hal ini secepat mungkin."
+  },
+  "full_page_translation_info_google_translate": {
+    "message": "Kelihatannya Anda menggunakan Google Translate juga. Harap nonaktifkan agar ekstensi kami dapat berfungsi dengan baik."
+  },
+  "full_page_translation_menu_always_translate": {
+    "message": "Selalu terjemahkan bahasa: "
+  },
+  "full_page_translation_menu_cancel_button": {
+    "message": "Tidak, terima kasih"
+  },
+  "full_page_translation_menu_cancel_opt_lang": {
+    "message": "Jangan terjemahkan"
+  },
+  "full_page_translation_menu_cancel_opt_website": {
+    "message": "Jangan terjemahkan situs web ini"
+  },
+  "full_page_translation_menu_headline": {
+    "message": "Terjemahkan situs ini?"
+  },
+  "full_page_translation_menu_translate_button": {
+    "message": "Terjemahkan"
+  },
+  "full_page_translation_no_translate_lang_change": {
+    "message": "Ubah"
+  },
+  "full_page_translation_no_translate_lang_message": {
+    "message": "Anda telah memilih untuk tidak menerjemahkan bahasa: "
+  },
+  "full_page_translation_no_translate_website_change": {
+    "message": "Ubah"
+  },
+  "full_page_translation_no_translate_website_message": {
+    "message": "Anda telah memilih untuk tidak menerjemahkan:"
+  },
+  "full_page_translation_no_website_data": {
+    "message": "Kami tidak bisa mendapatkan data apa pun dari situs web ini. Jika memungkinkan, silakan muat ulang halaman tersebut."
+  },
+  "full_page_translation_ongoing_translation": {
+    "message": "Sedang menerjemahkan"
+  },
+  "full_page_translation_settings_button_cancel": {
+    "message": "Batalkan"
+  },
+  "full_page_translation_settings_button_save": {
+    "message": "Simpan"
+  },
+  "full_page_translation_settings_done_button": {
+    "message": "Selesai",
+    "description": "Done button for the settings page"
+  },
+  "full_page_translation_settings_headline": {
+    "message": "Pengaturan"
+  },
+  "full_page_translation_settings_list_auto_translate_from": {
+    "message": "Bahasa yang akan diterjemahkan secara otomatis"
+  },
+  "full_page_translation_settings_list_never_translate_from": {
+    "message": "Bahasa yang tidak perlu diterjemahkan"
+  },
+  "full_page_translation_settings_list_never_translate_websites": {
+    "message": "Situs yang tidak perlu diterjemahkan"
+  },
+  "full_page_translation_settings_subheader_label": {
+    "message": "Menerjemahkan halaman",
+    "description": "Translate pages sub-header label\n\nThe screenshot is outdated, \"pages\" should be in lowercase"
+  },
+  "full_page_translation_settings_target_lang": {
+    "message": "Terjemahkan ke bahasa:"
+  },
+  "full_page_translation_settings_translate_writting": {
+    "message": "Terjemahkan tulisan Anda"
+  },
+  "full_page_translation_show_original": {
+    "message": "Tampilkan aslinya"
+  },
+  "full_page_translation_target_label": {
+    "message": "Terjemahkan halaman dari dan ke bahasa berikut"
+  },
+  "full_page_translation_translate_button": {
+    "message": "Terjemahkan halaman"
+  },
+  "inline_gdocs_max_chars_exceeded_body": {
+    "message": "Harap persingkat teks Anda, atau berlangganan DeepL Pro untuk terjemahan tak terbatas."
+  },
+  "inline_gdocs_max_chars_exceeded_title": {
+    "message": "Versi gratis hanya memungkinkan untuk menerjemahkan hingga 5000 karakter pada saat yang sama"
+  },
+  "inline_translation_highlighter_tooltip_headline": {
+    "message": "Menerjemahkan teks yang dipilih dengan DeepL",
+    "description": "Translate selected text with DeepL"
+  },
+  "inline_translation_highlighter_tooltip_text": {
+    "message": "Pilih saja teks Anda dan klik ikon DeepL—mudah sekali!",
+    "description": "Simply select your text and click the DeepL icon - that's it"
+  },
+  "inline_translation_label_show_icon_switch": {
+    "message": "Tampilkan ikon DeepL saat membaca",
+    "description": "Clickable label that opens the settings to disable or enable icon for translating while reading."
+  },
+  "inline_translation_label_target_language": {
+    "message": "Terjemahkan teks yang dipilih ke bahasa:",
+    "description": "Label displayed on top of the language selector."
+  },
+  "inline_translation_link_more_settings": {
+    "message": "Pengaturan lainnya",
+    "description": "Link that opens a more detailed settings page for translating while reading."
+  },
+  "inline_translation_setting_button_ok": {
+    "message": "Oke",
+    "description": "button for saving the changes done by the user."
+  },
+  "inline_translation_setting_label_title": {
+    "message": "Nonaktifkan ikon",
+    "description": "Title of the setting page for enabling or disabling translation while reading."
+  },
+  "inline_translation_setting_label_title_v2": {
+    "message": "Nonaktifkan DeepL saat membaca"
+  },
+  "inline_translation_setting_link_cancel": {
+    "message": "Tidak, jangan dinonaktifkan",
+    "description": "Link that cancels the changes by redirecting the user back."
+  },
+  "inline_translation_setting_radio_disable_everywhere": {
+    "message": "Di semua situs",
+    "description": "Radio button option to disable translation while reading everywhere"
+  },
+  "inline_translation_setting_radio_disable_per_site": {
+    "message": "Hanya di situs ini",
+    "description": "Radio button option to disable translation while reading only on the current website"
+  },
+  "inline_translation_settings_headline": {
+    "message": "Untuk membaca",
+    "description": "Headline for settings section of the inline translation"
+  },
+  "inline_translation_settings_target_language": {
+    "message": "Klik kanan untuk menerjemahkan",
+    "description": "Label for selecting the target language for inline translation. Most often this is the user's native language."
+  },
+  "inline_translation_show_more": {
+    "message": "Tampilkan lebih banyak",
+    "description": "Text for a link that opens deepl in a new tab where the selected text is prefilled"
+  },
+  "inline_translation_tooltip_turnoff": {
+    "message": "Nonaktifkan"
+  },
+  "input_translation_button_translate": {
+    "message": "Terjemahkan",
+    "description": "Button in the settings screen of the input translation to trigger a translation"
+  },
+  "input_translation_highlighter_tooltip_headline": {
+    "message": "Terjemahkan tulisan Anda dengan DeepL",
+    "description": "Translate your writing with DeepL"
+  },
+  "input_translation_highlighter_tooltip_text": {
+    "message": "Terjemahkan tulisan Anda hanya dengan mengeklik ikon DeepL!",
+    "description": "Translate your own words with one click - right here!"
+  },
+  "input_translation_label_show_icon_switch": {
+    "message": "Tampilkan ikon DeepL saat menulis ",
+    "description": "Clickable label that opens the settings to disable or enable icon for translating while writing."
+  },
+  "input_translation_link_more_settings": {
+    "message": "Pengaturan lainnya",
+    "description": "Link that opens a more detailed settings page for translating while writing."
+  },
+  "input_translation_option_choose_language": {
+    "message": "Memilih setiap kali",
+    "description": "If the user selects this option, each click on the button opens a selection to choose the target language"
+  },
+  "input_translation_option_default_translation": {
+    "message": "Secara default terjemahkan ke bahasa ini",
+    "description": "If the user selects this option, each button click immediately triggers a translation into the selected target languages"
+  },
+  "input_translation_setting_button_ok": {
+    "message": "Oke",
+    "description": "button for saving the changes done by the user."
+  },
+  "input_translation_setting_label_title": {
+    "message": "Nonaktifkan ikon",
+    "description": "Title of the setting page for enabling or disabling translation while writing."
+  },
+  "input_translation_setting_label_title_v2": {
+    "message": "Nonaktifkan DeepL saat menulis"
+  },
+  "input_translation_setting_link_cancel": {
+    "message": "Tidak, jangan dinonaktifkan",
+    "description": "Link that cancels the changes by redirecting the user back."
+  },
+  "input_translation_setting_radio_disable_everywhere": {
+    "message": "Di semua situs",
+    "description": "Radio button option to disable translation while writing everywhere"
+  },
+  "input_translation_setting_radio_disable_per_site": {
+    "message": "Hanya di situs ini",
+    "description": "Radio button option to disable translation while writing only on the current website"
+  },
+  "input_translation_settings_headline": {
+    "message": "Untuk menulis",
+    "description": "Headline for settings section of the translation of user input"
+  },
+  "input_translation_settings_target_language": {
+    "message": "Terjemahkan yang Anda tulis ke bahasa:",
+    "description": "Label for selecting the target language for input translation."
+  },
+  "input_translation_tooltip_settings": {
+    "message": "Pengaturan",
+    "description": "Tooltip to inform the user the button click open the settings for the input translation"
+  },
+  "input_translation_tooltip_translate": {
+    "message": "Terjemahkan",
+    "description": "Tooltip to inform the user the button click will trigger a translation of the written text"
+  },
+  "input_translation_tooltip_translate_to_unknown": {
+    "message": "Terjemahkan ke...",
+    "description": "Tooltip to inform the user that he/she must select a target language"
+  },
+  "input_translation_tooltip_turnoff": {
+    "message": "Nonaktifkan"
+  },
+  "layout_header_label_language_switch": {
+    "message": "Terjemahkan ke bahasa:",
+    "description": "Label for the \"Translate to\" inline select to translate popup."
+  },
+  "layout_header_label_language_switch_v2": {
+    "message": "Terjemahkan ke bahasa:",
+    "description": "Label for the \"Translate into\" inline select to translate popup."
+  },
+  "layout_header_settings_icon": {
+    "message": "Buka pengaturan"
+  },
+  "link_get_pro_license": {
+    "message": "Coba DeepL Pro secara gratis"
+  },
+  "link_try_deepl": {
+    "message": "Coba DeepL Pro secara gratis"
+  },
+  "login_error_default_message": {
+    "message": "Gagal masuk."
+  },
+  "login_link_label": {
+    "message": "Masuk ke DeepL Pro",
+    "description": "Login to DeepL Pro link label"
+  },
+  "login_link_try_pro_label": {
+    "message": "Coba DeepL Pro secara gratis",
+    "description": "Link to try DeepL Pro for free\n\nThe link to \"Try DeepL Pro Free\" leads to : https://www.deepl.com/pro"
+  },
+  "login_translate_pages_label": {
+    "message": "Menerjemahkan halaman",
+    "description": "Translate pages label"
+  },
+  "login_translate_pages_pro_badge": {
+    "message": "PRO",
+    "description": "PRO badge stays in EN"
+  },
+  "login_widget_login_link": {
+    "message": "Log in",
+    "description": "The button that users can use to log in to DeepL Pro"
+  },
+  "login_widget_pro_user_label": {
+    "message": "<strong>Sebagai pengguna DeepL Pro</strong>, Anda dapat menerjemahkan halaman lengkap dengan satu klik saja."
+  },
+  "login_widget_try_pro_label": {
+    "message": "Belum jadi pengguna DeepL Pro? <tryOutLink>Cobalah secara gratis</tryOutLink>"
+  },
+  "login_widget_upgrade_to_pro": {
+    "message": "Tingkatkan ke DeepL Pro"
+  },
+  "menu_login_label": {
+    "message": "Masuk ke DeepL Pro",
+    "description": "Log in to DeepL Pro Link label\n\nPlease check the Jira ticket for more context on this key: https://jira.deepl.dev/browse/TNL-711"
+  },
+  "menu_logout_label": {
+    "message": "Keluar",
+    "description": "Logout Label in the Menu"
+  },
+  "menu_settings_label": {
+    "message": "Pengaturan",
+    "description": "Settings Label for the Menu"
+  },
+  "menu_share_feedback_link": {
+    "message": "Share feedback",
+    "description": "A link that sends users to a survey they can fill out about the extension"
+  },
+  "menu_trial_label": {
+    "message": "Coba DeepL Pro secara gratis",
+    "description": "Menu Try DeepL Pro for free label"
+  },
+  "notification_inline_translation_disabled_everywhere": {
+    "message": "Ikon DeepL untuk membaca kini dinonaktifkan. Anda dapat mengubahnya di $linkToSettings$",
+    "description": "Notification with a link to the settings page when user disables translation while reading everywhere",
+    "placeholders": {
+      "linkToSettings": {
+        "content": "$1"
+      }
+    }
+  },
+  "notification_inline_translation_disabled_per_site": {
+    "message": "Ikon DeepL untuk membaca kini dinonaktifkan di $currentWebsite$. Anda dapat mengubahnya di $linkToSettings$",
+    "description": "Notification with a link to the settings page when user disables translation while reading per website",
+    "placeholders": {
+      "currentWebsite": {
+        "content": "$1"
+      },
+      "linkToSettings": {
+        "content": "$2"
+      }
+    }
+  },
+  "notification_inline_translation_link_to_settings_placeholder": {
+    "message": "pengaturan",
+    "description": "Placeholder text to the settings page link"
+  },
+  "notification_input_translation_disabled_everywhere": {
+    "message": "Anda sudah memilih untuk tidak menampilkan ikon menulis. Anda dapat mengubahnya di $linkToSettings$",
+    "description": "Notification with a link to the settings page when user disables translation while writing everywhere",
+    "placeholders": {
+      "linkToSettings": {
+        "content": "$1"
+      }
+    }
+  },
+  "notification_input_translation_disabled_per_site": {
+    "message": "Anda sudah memilih untuk tidak menampilkan ikon menulis di $currentWebsite$. Anda dapat mengubahnya di $linkToSettings$",
+    "description": "Notification with a link to the settings page when user disables translation while writing per website",
+    "placeholders": {
+      "currentWebsite": {
+        "content": "$1"
+      },
+      "linkToSettings": {
+        "content": "$2"
+      }
+    }
+  },
+  "notification_input_translation_link_to_settings_placeholder": {
+    "message": "pengaturan",
+    "description": "Placeholder text to the settings page link"
+  },
+  "notification_keyboard_shortcut_hint": {
+    "message": "Untuk menerjemahkan teks, atur pintasan Anda sendiri di $settings$",
+    "description": "A notification which will be displayed for 4 seconds. It contains a link to the browser settings to set shortcut for extensions.",
+    "placeholders": {
+      "settings": {
+        "content": "$1"
+      }
+    }
+  },
+  "notification_keyboard_shortcut_hint_placeholder": {
+    "message": "pengaturan",
+    "description": "The placeholder text for notification_keyboard_shortcut_hint"
+  },
+  "onboarding_back_button": {
+    "message": "Kembali"
+  },
+  "onboarding_disable_pages_description": {
+    "message": "Tidak ingin menggunakan ekstensi DeepL pada halaman tertentu? Tidak masalah! Nonaktifkan saja untuk situasi tertentu di pengaturan Anda."
+  },
+  "onboarding_disable_pages_title": {
+    "message": "Menonaktifkan penerjemahan"
+  },
+  "onboarding_full_page_translation_description": {
+    "message": "Menerjemahkan keseluruhan halaman web ke dalam bahasa yang Anda inginkan hanya dengan satu klik."
+  },
+  "onboarding_full_page_translation_table_cta": {
+    "message": "Coba gratis"
+  },
+  "onboarding_full_page_translation_table_intro": {
+    "message": "Selain itu, nikmati lebih banyak fitur di penerjemah web dan aplikasi:"
+  },
+  "onboarding_full_page_translation_table_item_1": {
+    "message": "Menerjemahkan seluruh berkas"
+  },
+  "onboarding_full_page_translation_table_item_2": {
+    "message": "Glosarium (bahasa tertentu)"
+  },
+  "onboarding_full_page_translation_table_item_3": {
+    "message": "Ragam formal/informal"
+  },
+  "onboarding_full_page_translation_table_legend": {
+    "message": "Gratis 30 hari. Batalkan kapan saja.",
+    "description": "The full stop is missing in the screenshot."
+  },
+  "onboarding_full_page_translation_table_read_more": {
+    "message": "dan lainnya"
+  },
+  "onboarding_full_page_translation_title": {
+    "message": "Menerjemahkan halaman lengkap"
+  },
+  "onboarding_inline_translation_description": {
+    "message": "Menerjemahkan teks yang telah Anda pilih dengan mengeklik ikon DeepL atau dengan mengaktifkan pintasan."
+  },
+  "onboarding_inline_translation_title": {
+    "message": "Menerjemahkan teks yang dipilih"
+  },
+  "onboarding_input_translation_description": {
+    "message": "Terjemahkan yang Anda tulis di ribuan platform dengan mengeklik ikon DeepL atau dengan mengaktifkan pintasan."
+  },
+  "onboarding_input_translation_title": {
+    "message": "Terjemahkan tulisan Anda dengan satu klik"
+  },
+  "onboarding_last_step_description": {
+    "message": "Bergabunglah dengan ribuan orang yang telah menikmati kualitas terjemahan DeepL saat menelusuri internet."
+  },
+  "onboarding_last_step_title": {
+    "message": "Cobalah hari ini!"
+  },
+  "onboarding_next_button": {
+    "message": "Berikutnya"
+  },
+  "onboarding_pin_extension": {
+    "message": "Sematkan ekstensi DeepL di sini untuk akses instan"
+  },
+  "onboarding_title_free": {
+    "message": "Gratis"
+  },
+  "onboarding_title_pro": {
+    "message": "Tersedia untuk pengguna DeepL PRO"
+  },
+  "permission_request_widget_button": {
+    "message": "Manage permissions"
+  },
+  "permission_request_widget_description": {
+    "message": "DeepL needs your permission to access and translate websites in your Firefox browser."
+  },
+  "permission_request_widget_title": {
+    "message": "Allow DeepL to run on Firefox"
+  },
+  "position_options_bottom": {
+    "message": "Bawah"
+  },
+  "position_options_left": {
+    "message": "Kiri"
+  },
+  "position_options_right": {
+    "message": "Kanan"
+  },
+  "position_options_top": {
+    "message": "Atas"
+  },
+  "reading_config_tab_description": {
+    "message": "Terjemahkan teks yang dipilih ke bahasa"
+  },
+  "reading_config_tab_switch_label": {
+    "message": "Tampilkan ikon DeepL saat membaca"
+  },
+  "reading_writing_config_tab_right_click_label": {
+    "message": "<strong>Klik kanan</strong> di mouse Anda"
+  },
+  "reading_writing_config_tab_shortcut_label": {
+    "message": "Gunakan <strong>pintasan</strong>"
+  },
+  "reading_writing_select_tab_reading_label": {
+    "message": "Membaca"
+  },
+  "reading_writing_select_tab_title": {
+    "message": "Pengaturan Anda"
+  },
+  "reading_writing_select_tab_writing_label": {
+    "message": "Menulis"
+  },
+  "selected_languages_EN_UK": {
+    "message": "Inggris (UK)",
+    "description": "English (UK)"
+  },
+  "selected_languages_EN_US": {
+    "message": "Inggris (AS)",
+    "description": "English (US)"
+  },
+  "selected_languages_PT_BR": {
+    "message": "Portugis (BR)"
+  },
+  "selected_languages_PT_PT": {
+    "message": "Portugis"
+  },
+  "settings_aknowledgements": {
+    "message": "Lisensi lainnya"
+  },
+  "settings_fpt_always_translate_from": {
+    "message": "Selalu terjemahkan secara otomatis dari bahasa",
+    "description": "The language list comes from this key: supported_languages_"
+  },
+  "settings_fpt_always_translate_into": {
+    "message": "Terjemahkan halaman lengkap secara otomatis ke bahasa",
+    "description": "The language list comes from this key: supported_languages_"
+  },
+  "settings_fpt_blacklist_domains": {
+    "message": "Jangan pernah tampilkan pop-up menerjemahkan halaman lengkap di situs web berikut:"
+  },
+  "settings_fpt_blacklist_languages": {
+    "message": "Jangan pernah tampilkan pop-up menerjemahkan halaman lengkap untuk bahasa berikut:"
+  },
+  "settings_fpt_lang_select": {
+    "message": "Terjemahkan situs web ke bahasa:"
+  },
+  "settings_fpt_never_translate_from": {
+    "message": "Jangan secara otomatis menerjemahkan dari bahasa berikut:",
+    "description": "The language list comes from this key: supported_languages_"
+  },
+  "settings_fpt_never_translate_sites": {
+    "message": "Jangan secara otomatis menerjemahkan situs berikut:"
+  },
+  "settings_fpt_no_sites_line_1": {
+    "message": "Anda belum menambahkan situs apa pun"
+  },
+  "settings_fpt_no_sites_line_2": {
+    "message": "Anda dapat menambahkan situs dengan menggunakan ikon membaca dan menulis, pada situs yang ingin Anda kecualikan."
+  },
+  "settings_fpt_popup_heading": {
+    "message": "Tampilkan pop-up menerjemahkan halaman lengkap"
+  },
+  "settings_fpt_popup_subtext": {
+    "message": "Pop-up ditampilkan apabila dimungkinkan untuk menerjemahkan keseluruhan halaman web."
+  },
+  "settings_fpt_reset": {
+    "message": "Atur ulang pop-up menerjemahkan halaman lengkap"
+  },
+  "settings_fpt_reset_button": {
+    "message": "Atur ulang semua"
+  },
+  "settings_language_selector_empty": {
+    "message": "Bahasa"
+  },
+  "settings_language_selector_multiple_label_default": {
+    "message": "Menambah bahasa"
+  },
+  "settings_menu_full_page_translation": {
+    "message": "Menerjemahkan halaman lengkap"
+  },
+  "settings_menu_reading": {
+    "message": "Membaca"
+  },
+  "settings_menu_writing": {
+    "message": "Menulis"
+  },
+  "settings_reading_adjust_position": {
+    "message": "Posisi jendela:"
+  },
+  "settings_reading_adjust_position_default": {
+    "message": "Posisi default"
+  },
+  "settings_reading_always_translate_into": {
+    "message": "Selalu terjemahkan yang dipilih ke bahasa",
+    "description": "The language list comes from this key: supported_languages_"
+  },
+  "settings_reading_disable_icon_per_site": {
+    "message": "Jangan pernah tampilkan ikon DeepL ketika membaca di situs-situs berikut ini:",
+    "description": "Setting section title with a list of websites where the icon for translate while reading will not show up."
+  },
+  "settings_reading_disable_icon_per_site_tooltip": {
+    "message": "Anda belum menambahkan situs apa pun. Anda dapat menambahkan situs dengan menggunakan ikon membaca dan menulis pada situs yang ingin Anda kecualikan.",
+    "description": "Tooltip displayed when there are no sites added to the list yet."
+  },
+  "settings_reading_enable_icon_everywhere_description": {
+    "message": "Ikon muncul ketika Anda memilih teks",
+    "description": "Text describing the translate while reading icon functionality"
+  },
+  "settings_reading_enable_icon_everywhere_label": {
+    "message": "Selalu tampilkan ikon DeepL saat membaca",
+    "description": "Switch button label to toggle select to translate functionality everywhere"
+  },
+  "settings_reading_shortcut_change": {
+    "message": "Ubah pintasan Anda di sini"
+  },
+  "settings_reading_shortcut_label": {
+    "message": "Gunakan pintasan untuk menerjemahkan yang Anda baca"
+  },
+  "settings_set_shortcuts_headline": {
+    "message": "Pintasan",
+    "description": "The headline for the shortcut setting"
+  },
+  "settings_set_shortcuts_link": {
+    "message": "Atur pintasan Anda di sini",
+    "description": "A message which contains a link to the browser settings to set shortcut for extensions."
+  },
+  "settings_title": {
+    "message": "Pengaturan"
+  },
+  "settings_writing_always_translate_into": {
+    "message": "Selalu terjemahkan yang Anda tulis ke bahasa",
+    "description": "The language list comes from this key: supported_languages_"
+  },
+  "settings_writing_disable_icon_per_site": {
+    "message": "Jangan pernah tampilkan ikon DeepL ketika menulis di situs-situs berikut ini:",
+    "description": "Setting section title with a list of websites where the icon for translate while writing will not show up. The user can remove them from here."
+  },
+  "settings_writing_disable_icon_per_site_tooltip": {
+    "message": "Anda belum menambahkan situs apa pun. Anda dapat menambahkan situs dengan menggunakan ikon membaca dan menulis pada situs yang ingin Anda kecualikan.",
+    "description": "Tooltip displayed when there are no sites added to the list yet."
+  },
+  "settings_writing_enable_icon_everywhere_description": {
+    "message": "Ikon muncul ketika Anda menulis teks",
+    "description": "Text describing the translate while writing icon functionality"
+  },
+  "settings_writing_set_shortcut": {
+    "message": "Set another shortcut",
+    "description": "Set another shortcut"
+  },
+  "settings_writing_shortcut_change": {
+    "message": "Ubah pintasan Anda di sini"
+  },
+  "settings_writing_shortcut_label": {
+    "message": "Gunakan pintasan untuk menerjemahkan yang Anda baca"
+  },
+  "settings_writing_shortcut_label_change_language": {
+    "message": "Use this shortcut to change the target language"
+  },
+  "settings_writing_shortcut_translate_writing": {
+    "message": "Use this shortcut to translate your writing"
+  },
+  "settings_writing_show_icon_line_1": {
+    "message": "Selalu tampilkan ikon DeepL saat menulis"
+  },
+  "settings_writing_show_icon_line_2": {
+    "message": "Ikon muncul ketika Anda menuliskan teks"
+  },
+  "supported_languages_BG": {
+    "message": "Bulgaria",
+    "description": "Name of language"
+  },
+  "supported_languages_CS": {
+    "message": "Ceko",
+    "description": "Name of language"
+  },
+  "supported_languages_DA": {
+    "message": "Denmark",
+    "description": "Name of language"
+  },
+  "supported_languages_DE": {
+    "message": "Jerman",
+    "description": "Name of language"
+  },
+  "supported_languages_EL": {
+    "message": "Yunani",
+    "description": "Name of language"
+  },
+  "supported_languages_EN": {
+    "message": "Inggris",
+    "description": "Name of language"
+  },
+  "supported_languages_EN_UK": {
+    "message": "Inggris (Britania)",
+    "description": "English (British)"
+  },
+  "supported_languages_EN_US": {
+    "message": "Inggris (Amerika)",
+    "description": "English (American)"
+  },
+  "supported_languages_ES": {
+    "message": "Spanyol",
+    "description": "Name of language"
+  },
+  "supported_languages_ET": {
+    "message": "Estonia",
+    "description": "Name of language"
+  },
+  "supported_languages_FI": {
+    "message": "Finlandia",
+    "description": "Name of language"
+  },
+  "supported_languages_FR": {
+    "message": "Prancis",
+    "description": "Name of language"
+  },
+  "supported_languages_HU": {
+    "message": "Hongaria",
+    "description": "Name of language"
+  },
+  "supported_languages_ID": {
+    "message": "Indonesia",
+    "description": "Name of language"
+  },
+  "supported_languages_IT": {
+    "message": "Italia",
+    "description": "Name of language"
+  },
+  "supported_languages_JA": {
+    "message": "Jepang",
+    "description": "Name of language"
+  },
+  "supported_languages_KO": {
+    "message": "Korea",
+    "description": "Name of language"
+  },
+  "supported_languages_LT": {
+    "message": "Lituania",
+    "description": "Name of language"
+  },
+  "supported_languages_LV": {
+    "message": "Latvia",
+    "description": "Name of language"
+  },
+  "supported_languages_NB": {
+    "message": "Norwegia (bokmål)",
+    "description": "Name of language"
+  },
+  "supported_languages_NL": {
+    "message": "Belanda",
+    "description": "Name of language"
+  },
+  "supported_languages_PL": {
+    "message": "Polandia",
+    "description": "Name of language"
+  },
+  "supported_languages_PT": {
+    "message": "Portugis",
+    "description": "Name of language"
+  },
+  "supported_languages_PT_BR": {
+    "message": "Portugis (Brasil)"
+  },
+  "supported_languages_PT_PT": {
+    "message": "Portugis"
+  },
+  "supported_languages_RO": {
+    "message": "Romania",
+    "description": "Name of language"
+  },
+  "supported_languages_RU": {
+    "message": "Rusia",
+    "description": "Name of language"
+  },
+  "supported_languages_SK": {
+    "message": "Slowakia",
+    "description": "Name of language"
+  },
+  "supported_languages_SL": {
+    "message": "Slovenia",
+    "description": "Name of language"
+  },
+  "supported_languages_SV": {
+    "message": "Swedia",
+    "description": "Name of language"
+  },
+  "supported_languages_TR": {
+    "message": "Turki",
+    "description": "Name of language"
+  },
+  "supported_languages_UK": {
+    "message": "Ukraina"
+  },
+  "supported_languages_undefined": {
+    "message": "Harap pilih",
+    "description": "The user has not yet selected a target language."
+  },
+  "supported_languages_ZH": {
+    "message": "Mandarin (sederhana)",
+    "description": "Name of language"
+  },
+  "switch_component_off": {
+    "message": "MATI",
+    "description": "The OFF state for the switch ui element"
+  },
+  "switch_component_on": {
+    "message": "NYALA",
+    "description": "The ON state for the switch ui element"
+  },
+  "test_split_translation": {
+    "message": "<loginLink>Masuk</loginLink> ke DeepL Pro <tryLink>atau coba gratis</tryLink> untuk menerjemahkan halaman secara lengkap"
+  },
+  "twitter_web_alternatives_link": {
+    "message": "Buka di DeepL.com"
+  },
+  "twitter_web_translate_tweet_link": {
+    "message": "Terjemahkan dengan DeepL"
+  },
+  "ui_auto_translate_label": {
+    "message": "Menerjemahkan secara otomatis"
+  },
+  "ui_auto_translate_tooltip": {
+    "message": "Halaman yang berbahasa $sourceLang$ akan secara otomatis diterjemahkan",
+    "placeholders": {
+      "sourceLang": {
+        "content": "$1"
+      }
+    }
+  },
+  "ui_doc_trans_link": {
+    "message": "Menerjemahkan keseluruhan dokumen di <deeplLink>DeepL.com</deeplLink>"
+  },
+  "ui_fpt_hide_cancel": {
+    "message": "Kembali"
+  },
+  "ui_fpt_hide_checkbox": {
+    "message": "Jangan tampilkan lagi pesan ini"
+  },
+  "ui_fpt_hide_confirm": {
+    "message": "Oke"
+  },
+  "ui_fpt_hide_heading": {
+    "message": "Jangan tampilkan pop-up menerjemahkan halaman lengkap:"
+  },
+  "ui_fpt_hide_option_domain": {
+    "message": "Hanya di situs ini"
+  },
+  "ui_fpt_hide_option_fpt": {
+    "message": "Di semua situs"
+  },
+  "ui_fpt_hide_option_lang": {
+    "message": "Hanya untuk bahasa ini"
+  },
+  "ui_fpt_translate_button": {
+    "message": "Terjemahkan halaman"
+  },
+  "ui_full_page_translate_widget_text": {
+    "message": "Menerjemahkan halaman lengkap"
+  },
+  "ui_gdocs_onboarding_image_text": {
+    "message": "Select text and click."
+  },
+  "ui_gdocs_onboarding_title": {
+    "message": "Translate your work<br> accurately in Google Docs"
+  },
+  "ui_gdocs_onboarding_usp_1": {
+    "message": "<strong>Check the meaning</strong> in context"
+  },
+  "ui_gdocs_onboarding_usp_2": {
+    "message": "<strong>Replace text</strong> with its translation, </strong>preserving all formatting</strong>"
+  },
+  "ui_gdocs_onboarding_usp_3": {
+    "message": "<strong>Learn as you go</strong> with pronunciation and dictionary"
+  },
+  "ui_gdocs_replace": {
+    "message": "Ganti"
+  },
+  "ui_gdocs_replace_cta": {
+    "message": "Replace in document"
+  },
+  "ui_gdocs_replace_tooltip": {
+    "message": "Teks yang dipilih akan diganti dengan terjemahan ini"
+  },
+  "ui_gdocs_translate_tooltip": {
+    "message": "Terjemahkan dengan DeepL"
+  },
+  "ui_inline_translate_widget_text": {
+    "message": "Menerjemahkan teks yang dipilih"
+  },
+  "ui_inline_translation_copied": {
+    "message": "Terjemahan disalin"
+  },
+  "ui_inline_translation_copy": {
+    "message": "Salin ke papan klip"
+  },
+  "ui_inline_translation_dictionary": {
+    "message": "Kamus",
+    "description": "Dictionary"
+  },
+  "ui_inline_translation_listen_play": {
+    "message": "Dengarkan"
+  },
+  "ui_inline_translation_listen_stop": {
+    "message": "Berhenti mendengarkan"
+  },
+  "ui_inline_translation_listen_to_original": {
+    "message": "Dengarkan teks aslinya"
+  },
+  "ui_inline_translation_listen_to_translation": {
+    "message": "Dengarkan terjemahan"
+  },
+  "ui_inline_translation_no_entry_dictionary": {
+    "message": "Tidak ditemukan entri untuk '<strong>$originalSnippet$</strong>'.",
+    "placeholders": {
+      "originalSnippet": {
+        "content": "$1"
+      }
+    }
+  },
+  "ui_inline_translation_problem_loading_dictionary": {
+    "message": "Entri kamus tidak dapat dimuat. Harap coba lagi."
+  },
+  "ui_inline_translation_see_alternatives": {
+    "message": "Lihat alternatifnya di DeepL.com"
+  },
+  "ui_inline_translation_see_alternatives_v2": {
+    "message": "Buka di DeepL.com"
+  },
+  "ui_inline_translation_see_alternatives_v3": {
+    "message": "Coba fitur lainnya"
+  },
+  "ui_inline_translation_translate_only_one_word": {
+    "message": "Untuk melihat entri kamus, Anda harus menerjemahkan kata satu per satu."
+  },
+  "ui_inline_translation_unavailable_lang_pair": {
+    "message": "Kamus tidak tersedia untuk pasangan bahasa ini."
+  },
+  "ui_input_translate_widget_text": {
+    "message": "Terjemahkan tulisan Anda dengan satu klik"
+  },
+  "ui_login_body": {
+    "message": "<loginLink>Masuk</loginLink> ke DeepL Pro <tryLink>atau coba gratis</tryLink> untuk menerjemahkan halaman secara lengkap"
+  },
+  "ui_login_header": {
+    "message": "Terjemahkan halaman ini? <badge>PRO</badge>"
+  },
+  "ui_no_translate_language": {
+    "message": "Jangan pernah menerjemahkan dari bahasa $sourceLang$",
+    "placeholders": {
+      "sourceLang": {
+        "content": "$1"
+      }
+    }
+  },
+  "ui_no_translate_website": {
+    "message": "Situs yang tidak perlu diterjemahkan"
+  },
+  "ui_notice_no_translate_change_option": {
+    "message": "Anda dapat mengubah hal ini di <settingsLink>pengaturan</settingsLink>"
+  },
+  "ui_notice_no_translate_language": {
+    "message": "Anda telah memilih untuk tidak menerjemahkan dari bahasa <strong>$sourceLang$</strong>",
+    "placeholders": {
+      "sourceLang": {
+        "content": "$1"
+      }
+    }
+  },
+  "ui_notice_no_translate_website": {
+    "message": "Anda telah memilih untuk tidak menerjemahkan <strong>$website$</strong>",
+    "placeholders": {
+      "website": {
+        "content": "$1"
+      }
+    }
+  },
+  "ui_notice_no_translate_website_and_language": {
+    "message": "Anda telah memilih untuk tidak menerjemahkan <strong>$website$</strong> dan tidak menerjemahkan bahasa <strong>$sourceLang$</strong>",
+    "placeholders": {
+      "website": {
+        "content": "$1"
+      },
+      "sourceLang": {
+        "content": "$2"
+      }
+    }
+  },
+  "ui_notification_fpt_hide": {
+    "message": "Anda telah memilih untuk tidak menampilkan pop-up menerjemahkan halaman lengkap. Anda dapat mengubahnya di pengaturan",
+    "description": "The notification that shows up when somebody decides to hide \"Full Page Translation\", letting them know they can reenable the feature on the settings page"
+  },
+  "ui_read_more": {
+    "message": "Baca lebih lanjut"
+  },
+  "ui_share_button": {
+    "message": "Salin"
+  },
+  "ui_share_button_tooltip_copied": {
+    "message": "Sudah disalin"
+  },
+  "ui_share_button_tooltip_copy": {
+    "message": "Salin tautan"
+  },
+  "ui_share_error": {
+    "message": "Terjadi kesalahan ketika menyalin teks"
+  },
+  "ui_share_feedback": {
+    "message": "Bagikan umpan balik Anda",
+    "description": "The link to our feedback survey."
+  },
+  "ui_share_success": {
+    "message": "Sudah disalin! Siap untuk dibagikan!",
+    "description": "A button to share the link of the Chrome extension to my friends\n\nIf I click on that button:\n- The link to the Chrome Store is copied into the clipboard\n- A message is sent to the user confirming this and letting them know that they can share that link with their friends. "
+  },
+  "ui_share_title": {
+    "message": "Bagikan DeepL kepada teman"
+  },
+  "ui_target_language_select": {
+    "message": "Ke bahasa apa ingin Anda terjemahkan?"
+  },
+  "ui_toaster_feedback_form_line_1": {
+    "message": "Terima kasih sudah memberi tahu kami"
+  },
+  "ui_toaster_feedback_form_line_2": {
+    "message": "Bisakah Anda membantu kami untuk meningkatkan diri dengan mengikuti survei 1 menit?"
+  },
+  "ui_toaster_how_was_your_experience_bad": {
+    "message": "Tidak bagus"
+  },
+  "ui_toaster_how_was_your_experience_good": {
+    "message": "Hebat"
+  },
+  "ui_toaster_how_was_your_experience_line_1": {
+    "message": "Kami ingin mendapat masukan dari Anda mengenai ekstensi DeepL untuk Chrome."
+  },
+  "ui_toaster_how_was_your_experience_line_2": {
+    "message": "Bagaimana pengalaman Anda selama ini?"
+  },
+  "ui_toaster_write_a_review_cta": {
+    "message": "Tulis ulasan"
+  },
+  "ui_toaster_write_a_review_line_1": {
+    "message": "Terima kasih. Senang mendengarnya!"
+  },
+  "ui_toaster_write_a_review_line_2": {
+    "message": "Maukah Anda membagikan umpan balik Anda di Chrome Web Store?"
+  },
+  "ui_translated_automatically": {
+    "message": "Diterjemahkan secara otomatis dari bahasa <strong>$sourceLang$</strong>",
+    "placeholders": {
+      "sourceLang": {
+        "content": "$1"
+      }
+    }
+  },
+  "ui_try_button": {
+    "message": "Coba gratis",
+    "description": "The button leads to the document translator:  https://www.deepl.com/translator/files "
+  },
+  "ui_widget_feature_free": {
+    "message": "GRATIS"
+  },
+  "ui_widget_feature_pro": {
+    "message": "Tersedia untuk pengguna DeepL PRO"
+  },
+  "ui_zendesk_autotranslate_start": {
+    "message": "Terjemahkan utas"
+  },
+  "ui_zendesk_autotranslate_stop": {
+    "message": "Berhenti menerjemahkan"
+  },
+  "ui_zendesk_input_language_mismatch": {
+    "message": "Bahasa tidak sesuai dengan bahasa penerima. Tetap kirimkan?"
+  },
+  "ui_zendesk_input_tooltip": {
+    "message": "Terjemahkan"
+  },
+  "ui_zendesk_language_detected": {
+    "message": "(terdeteksi)"
+  },
+  "ui_zendesk_message_translate": {
+    "message": "Terjemahkan tiket ini"
+  },
+  "ui_zendesk_modal_deepl_translate_into": {
+    "message": "DeepL, tolong terjemahkan ke bahasa:"
+  },
+  "ui_zendesk_modal_language_not_supported_line_1": {
+    "message": "DeepL belum bisa menerjemahkan bahasa Anda"
+  },
+  "ui_zendesk_modal_language_not_supported_line_2": {
+    "message": "Kami akan memberi tahu Anda sesegera bahasa ini tersedia"
+  },
+  "ui_zendesk_modal_ok": {
+    "message": "OKE"
+  },
+  "ui_zendesk_modal_turn_deepl_off": {
+    "message": "Nonaktifkan DeepL"
+  },
+  "ui_zendesk_modal_turn_deepl_on": {
+    "message": "Aktifkan DeepL"
+  },
+  "ui_zendesk_modal_welcome": {
+    "message": "Selamat datang di DeepL untuk Zendesk"
+  },
+  "ui_zendesk_modal_what_is_your_primary_language": {
+    "message": "Apa bahasa utama Anda?"
+  },
+  "ui_zendesk_onboarding_free_trial_notice": {
+    "message": "This extension is <strong>free for a limited time</strong>. Give it a try and <loginLink>share your feedback</loginLink>"
+  },
+  "ui_zendesk_onboarding_title": {
+    "message": "Manage your tickets<br> in multiple languages"
+  },
+  "ui_zendesk_onboarding_usp_1": {
+    "message": "<strong>Translate messages or entire threads</strong> on the fly"
+  },
+  "ui_zendesk_onboarding_usp_2": {
+    "message": "<strong>Reply</strong> in your customer’s language"
+  },
+  "ui_zendesk_onboarding_usp_3": {
+    "message": "<strong>Sound natural and professional</strong> every time"
+  },
+  "ui_zendesk_senders_language": {
+    "message": "Bahasa pengirim"
+  },
+  "warning_message_account_limit_reached": {
+    "message": "Anda telah mencapai batas penggunaan akun Anda. Harap hubungi >Dukungan DeepL</deeplSupportLink> untuk meningkatkan batasan Anda."
+  },
+  "warning_message_different_subscription_needed": {
+    "message": "Maaf, paket langganan Anda tidak termasuk akses ke fitur tersebut."
+  },
+  "warning_message_free_usage_limit_reached": {
+    "message": "Anda telah mencapai batas penggunaan gratis. Ingin terus menerjemahkan?"
+  },
+  "whatsapp_web_chat_settings_languageswitch_label": {
+    "message": "Terjemahkan obrolan Anda ke bahasa:"
+  },
+  "whatsapp_web_chat_translator_tooltip_settings_button": {
+    "message": "Pengaturan"
+  },
+  "whatsapp_web_chat_translator_tooltip_translate_button": {
+    "message": "Terjemahkan obrolan"
+  },
+  "whatsapp_web_settings_languageswitch_label": {
+    "message": "Terjemahkan pesan Anda ke bahasa:",
+    "description": "Headline for the language switch"
+  },
+  "whatsapp_web_show_alternatives_link": {
+    "message": "Lihat alternatifnya di DeepL.com"
+  },
+  "whatsapp_web_tooltip_settings_button": {
+    "message": "Pengaturan"
+  },
+  "whatsapp_web_tooltip_translate_button": {
+    "message": "Terjemahkan"
+  },
+  "writing_config_tab_description": {
+    "message": "Terjemahkan tulisan Anda ke bahasa"
+  },
+  "writing_config_tab_language_selector_empty": {
+    "message": "Pilih bahasa"
+  },
+  "writing_config_tab_switch_label": {
+    "message": "Tampilkan ikon DeepL saat menulis "
+  },
+  "zendesk_plugin_extension_installed_content": {
+    "message": "Terjemahkan secara langsung semua yang Anda baca dan tulis."
+  },
+  "zendesk_plugin_extension_installed_header": {
+    "message": "DeepL sekarang sudah siap"
+  },
+  "zendesk_plugin_extension_not_installed_content": {
+    "message": "Kami telah mengganti plug-in dengan ekstensi yang terintegrasi penuh."
+  },
+  "zendesk_plugin_extension_not_installed_cta": {
+    "message": "Unduh gratis"
+  },
+  "zendesk_plugin_extension_not_installed_header": {
+    "message": "Optimalkan proses menerjemahkan Anda"
+  }
+}

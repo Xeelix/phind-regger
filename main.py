@@ -1,3 +1,5 @@
+import os
+
 import undetected_chromedriver as uc
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
@@ -15,8 +17,20 @@ class MyUDC(uc.Chrome):
         # self.quit()
 
 
+def close_extension_start_page(driver):
+    driver.switch_to.window(driver.window_handles[0])
+    driver.close()
+    driver.switch_to.window(driver.window_handles[0])
+
+
 def initialize_driver():
-    driver = MyUDC(debug=True)
+    options = uc.ChromeOptions()
+    options.add_argument(f'--load-extension={os.getcwd()}/deepl')
+
+    driver = MyUDC(debug=True, options=options, use_subprocess=True)
+
+    close_extension_start_page(driver)
+
     return driver
 
 
@@ -62,6 +76,7 @@ def set_up_for_programming(driver, wait):
 def main():
     driver = initialize_driver()
     wait = WebDriverWait(driver, 10)
+
     email = get_temp_email(driver, wait)
     register_to_phind(driver, wait, email)
     confirm_url = confirm_email(driver, wait)

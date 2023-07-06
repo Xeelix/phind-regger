@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('chrome-extension://__MSG_@@extension_id__/fonts/OpenSans_VariableFont_wdth_wght.ttf') format('truetype');
+	font-weight: 100 1000;
+}
+
+html, body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #292C32;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button {
+	font-size: 12px;
+	font-family:inherit;
+}
+
+select {
+	font-size: 12px;
+}
+
+strong {
+	font-weight: 600;
+}

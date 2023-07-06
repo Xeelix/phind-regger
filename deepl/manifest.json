@@ -1,0 +1,97 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "__MSG_appName__",
+  "version": "1.5.1",
+  "manifest_version": 3,
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "permissions": [
+    "activeTab", 
+    "storage", 
+    "contextMenus",
+    "tabs",
+    "scripting",
+    "declarativeNetRequest",
+    "identity",
+    "tts"
+  ],
+  "web_accessible_resources" : [ 
+    {
+      "resources": [ "images/*.svg", "images/**/*.svg" ],
+      "matches": [ "<all_urls>" ]
+    },
+    {
+      "resources": [ "build/content.css" ],
+      "matches": [ "<all_urls>" ]
+    },
+    {
+      "resources": [ "fonts/OpenSans_VariableFont_wdth_wght.ttf" ],
+      "matches": [ "<all_urls>" ]
+    },
+    {
+      "resources": [ "build/dev-page.css" ],
+      "matches": [ "chrome-extension://ocpdpnakdghopjcifldjidbdmfobmmoi/*" ]
+    }
+  ],
+  "host_permissions": [
+    "*://*.deepl.com/*",
+    "https://api-test.deepl.com/v1/*", 
+    "https://api.deepl.com/v1/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "css": ["build/content.css"],
+    "js": ["build/content.js"],
+    "run_at": "document_idle",
+    "all_frames": false
+  }],
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": true
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/deepl_16.png",
+      "32": "images/deepl_32.png",
+      "48": "images/deepl_48.png",
+      "128": "images/deepl_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/deepl_16.png",
+    "32": "images/deepl_32.png",
+    "48": "images/deepl_48.png",
+    "128": "images/deepl_128.png"
+  },
+  "commands": {
+    "trigger-translation": {
+						"name": "trigger-translation",
+      "suggested_key": {
+								"default": "Ctrl+Shift+Y",
+								"mac": "Command+Shift+Y"
+						},
+      "description": "__MSG_extension_settings_keyboard_shortcut_perform_translation__"
+    },
+    "change-language": {
+      "name": "change-language",
+      "suggested_key": {
+                "default": "Ctrl+Shift+L",
+                "mac": "Command+Shift+L"
+            },
+      "description": "__MSG_extension_settings_keyboard_shortcut_change_language__"
+      }
+  }
+}
