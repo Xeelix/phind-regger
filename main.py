@@ -1,4 +1,5 @@
 import os
+import zipfile
 
 import undetected_chromedriver as uc
 from selenium.common import TimeoutException
@@ -17,6 +18,17 @@ class MyUDC(uc.Chrome):
         # self.quit()
 
 
+def extract_zip(path):
+    extension_name = path.split('.')[0]
+
+    with zipfile.ZipFile(path, 'r') as zip_ref:
+        # Create folder for extension
+        if not os.path.exists(f"{extension_name}"):
+            os.mkdir(f"{extension_name}")
+
+        zip_ref.extractall(f"{extension_name}")
+
+
 def close_extension_start_page(driver):
     driver.switch_to.window(driver.window_handles[0])
     driver.close()
@@ -24,6 +36,8 @@ def close_extension_start_page(driver):
 
 
 def initialize_driver():
+    extract_zip('deepl.zip')
+
     options = uc.ChromeOptions()
     options.add_argument(f'--load-extension={os.getcwd()}/deepl')
 
