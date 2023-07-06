@@ -1,4 +1,5 @@
 import os
+import sys
 import zipfile
 
 import undetected_chromedriver as uc
@@ -18,9 +19,20 @@ class MyUDC(uc.Chrome):
         # self.quit()
 
 
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+
 def extract_zip(path):
     extension_name = path.split('.')[0]
-
+    print(f"Extracting {path} in path {os.getcwd()}...")
     with zipfile.ZipFile(path, 'r') as zip_ref:
         # Create folder for extension
         if not os.path.exists(f"{extension_name}"):
@@ -36,10 +48,13 @@ def close_extension_start_page(driver):
 
 
 def initialize_driver():
-    extract_zip('deepl.zip')
+    deepl_zip_path = resource_path('deepl.zip')
+
+    extract_zip(deepl_zip_path)
 
     options = uc.ChromeOptions()
-    options.add_argument(f'--load-extension={os.getcwd()}/deepl')
+    deepl_folder_path = resource_path('deepl')
+    options.add_argument(f'--load-extension={deepl_folder_path}')
 
     driver = MyUDC(debug=True, options=options, use_subprocess=True)
 
