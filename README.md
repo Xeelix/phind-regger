@@ -14,7 +14,7 @@ python main.py
 ## Build
 
 ```bash
-pyinstaller --onefile main.py --name phind
+pyinstaller --onefile --add-data="deepl.zip:." main.py --name phind
 ```
 
 ## Requirements
