@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 
 
+# Prevent closing browser after complete registration
 class MyUDC(uc.Chrome):
     def __del__(self):
         try:
@@ -35,7 +36,7 @@ def register_to_phind(driver, wait, email):
 
 
 def confirm_email(driver, wait):
-    driver.switch_to.window(driver.window_handles[0])  # switch to mail tab
+    driver.switch_to.window(driver.window_handles[0])
     while True:
         try:
             wait.until(ec.presence_of_element_located(
@@ -52,11 +53,6 @@ def confirm_email(driver, wait):
 def click_confirmation_link(driver, confirm_url):
     driver.get(confirm_url)
 
-    driver.switch_to.window(driver.window_handles[1])  # switch to mail tab
-    # driver.close()
-
-
-
 
 def set_up_for_programming(driver, wait):
     wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "#Use\\ Best\\ Model"))).click()
@@ -66,12 +62,12 @@ def set_up_for_programming(driver, wait):
 def main():
     driver = initialize_driver()
     wait = WebDriverWait(driver, 10)
-    driver.get("https://www.google.com")
-    # email = get_temp_email(driver, wait)
-    # register_to_phind(driver, wait, email)
-    # confirm_url = confirm_email(driver, wait)
-    # click_confirmation_link(driver, confirm_url)
-    # set_up_for_programming(driver, wait)
+    email = get_temp_email(driver, wait)
+    register_to_phind(driver, wait, email)
+    confirm_url = confirm_email(driver, wait)
+    click_confirmation_link(driver, confirm_url)
+    set_up_for_programming(driver, wait)
+
 
 if __name__ == '__main__':
     main()
